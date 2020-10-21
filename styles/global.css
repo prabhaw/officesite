@@ -1,0 +1,24 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  line-height: normal;
+}
+.solution-dropdown {
+  display: none;
+}
+.dropdown-solution:hover .solution-dropdown {
+  display: block;
+}
+
+.company-selection:hover .company-dropdown {
+  display: block;
+}
+
+.dropdown-solution:hover button {
+  color: #916fbc;
+}
+
+.company-selection:hover button {
+  color: #916fbc;
+}
